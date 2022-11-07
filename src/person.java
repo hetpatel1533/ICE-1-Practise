@@ -29,6 +29,12 @@ public class person
         this.m_age = age;
     }
 
+    public void set(String name, int age)
+    {
+        setName(name);
+        setAge(age);
+    }
+
     // Constructers
     public person(String name, int age)
     {
@@ -36,13 +42,23 @@ public class person
         this.m_age = age;
     }
 
+    public person()
+    {
+        m_name = "unknown";
+        m_age = 0;
+    }
+
     // Public methods
+
+
+
     public void saysHello()
     {
         System.out.println( getName() + " Says Hello");
     }
 
     // Private methods
+
 
     // Overloaded methods
     @Override
