@@ -2,6 +2,10 @@ public class Main
 {
     public static void main(String[] args)
     {
-        System.out.println("Hello world!");
+        person per = new person("Het", 15);
+        per.saysHello();
+
+        System.out.println(per);
     }
+
 }

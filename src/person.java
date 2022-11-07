@@ -39,7 +39,7 @@ public class person
     // Public methods
     public void saysHello()
     {
-        System.out.println( getName() + "Says Helllo");
+        System.out.println( getName() + " Says Hello");
     }
 
     // Private methods
